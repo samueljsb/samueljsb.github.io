@@ -24,7 +24,9 @@ permalink: /
             {% endif %}
 
             {% if site.avatar %}
-                <img src="{{ site.avatar_img_path }}" id="avatar">
+                <a href="{{site.url}}/about/">
+                    <img src="{{ site.avatar_img_path }}" id="avatar">
+                </a>
             {% endif %}
 
             <h1>{{ site.name }}</h1>
@@ -116,6 +118,8 @@ permalink: /
                     {% endif %}
                 </ul>
         </div>
-
+        <div align="right">
+            <font color=white size=2>Profile picture by: <a href="http://www.martinsiggersphotography.com/" title="Martin's wesbite">Martin Siggers Photography</a></font>
+        </div>
     </body>
 </html>
