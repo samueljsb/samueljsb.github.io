@@ -20,8 +20,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Medical Physics student; theatre technician; knitter.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://samueljsb.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000" # for dev
 twitter_username: samueljsb
 github_username:  samueljsb
+
 
 # Info for frontpage
 ## Delete the lines you don't need
@@ -57,10 +59,10 @@ favicon_img: yes
 favicon_img_path: "assets/favicon.ico"
 #favicon_img_path: "https://external.url/favicon.ico"
 
-
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 # permalink: pretty
+
 
 # Build settings
 markdown: kramdown
