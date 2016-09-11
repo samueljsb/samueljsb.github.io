@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Medical Physics student; theatre technician; knitter.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://samueljsb.github.io" # the base hostname & protocol for your site
-url: "http://localhost:4000" # for dev
+# url: "http://localhost:4000" # for dev
 twitter_username: samueljsb
 github_username:  samueljsb
 
