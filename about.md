@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sam is a fourth-year MSci student at [UCL](http://www.ucl.ac.uk) studying medical physics.
+His masters project is titled "Rapid Prototyping Of Ultrasound Transducers."
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Sam is also a freelance theatre technician and a member of the UCLU Stage Crew society.
