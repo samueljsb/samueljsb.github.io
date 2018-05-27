@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Sam is a fourth-year MSci student at [UCL](http://www.ucl.ac.uk) studying medical physics.
-His master's project is titled "Rapid Prototyping Of Ultrasound Transducers."
+Sam is a student teacher working towards a PGCE in Secondary Science (Physics) from the [UCL Institute of Education](https://www.ucl.ac.uk/ioe). He previously earned a masters in Medical Physics from [UCL](https://www.ucl.ac.uk) with a project titled "Rapid Prototyping of Ultrasound Transducers."
 
-Sam is also a freelance theatre technician and a member of the [UCLU Stage Crew society](http://uclu-stage-crew.github.io).
+Sam is also a freelance theatre technician with nearly 10 years of experience in professional and student theatre
