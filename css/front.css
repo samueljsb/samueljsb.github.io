@@ -1,28 +1,28 @@
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-    background-color: rgba(0, 0, 0, 0.9);
-    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.75);
+    background-image: url("/assets/UCL-Quad.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    position: fixed; 
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: 0;
 }
-#fullscreen {
-    z-index: -999;
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 #avatar {
     height: 180px;
     border-radius: 100%;
     border: 5px solid white;
     margin-bottom: 40px;
+}
+#avatar:hover {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    filter: brightness(0.7);
+    text-decoration: none;
 }
 h1 {
     color: white;
@@ -38,10 +38,14 @@ h3 {
     font-weight: thin;
 }
 .content {
+    width: 100%;
     padding-top: 100px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
+    /* min-height: 100%;
+    max-height: 100vh; */
+    height: 100vh;
 }
 ul {
     list-style: none;
@@ -121,4 +125,31 @@ a:hover {
 .content {
     padding-top: 60px;
 }
+}
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 40px;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+}
+#copyright {
+    margin: 0 20px;
+}
+#photo-credit{
+    margin: 0 20px;
+    float: right;
+}
+footer a {
+    color: lightgray;
+    padding: 0;
+    margin-right: 15px;
+}
+footer a:hover {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    color: white;
+    text-decoration: none;
 }
