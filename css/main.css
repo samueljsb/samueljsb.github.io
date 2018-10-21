@@ -92,7 +92,17 @@ footer a:visited {
 footer a {
     color: var(--my-gray);
 }
-#copyright{
+#copyright {
     font-size: 13px;
     color: var(--my-gray);
+}
+
+.project h2 {
+    display: inline-block;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.project p {
+    margin-bottom: 2em;
 }
