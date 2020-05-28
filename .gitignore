@@ -1,2 +1,8 @@
+# Jekyll files
 .sass-cache
-*.DS_Store
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Jekyll serve output
+_site/
