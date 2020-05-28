@@ -1,46 +1,63 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+---
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SamuelJSB</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <link rel="canonical" href="https://www.samueljsb.co.uk/">
-    <link rel="shortcut icon" href="/assets/favicon.ico" />
-    <link rel="stylesheet" href="css/front.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  </head>
-
-  <body>
-    <div class="content">
-      <a href="/about/">
-        <img src="https://avatars3.githubusercontent.com/u/7549858" id="avatar">
+<section class="section content has-text-centered">
+  <figure class="image is-128x128">
+    <img class="is-rounded" src="/static/img/profile.jpeg" />
+  </figure>
+  <h1 class="title is-size-1-tablet">Samuel Searles-Bryant</h1>
+  <nav class="level">
+    <div class="level-item has-text-centered">
+      <a
+        href="https://github.com/{{ site.github }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="icon is-large">
+          <img src="/static/icon/github.svg" />
+        </span>
+        <p class="heading">GitHub</p>
       </a>
-      <h1>Samuel J Searles-Bryant</h1>
-      <h3></h3>
-      <ul>
-        <li>
-          <a class="fa fa-2x fa-github" href="https://github.com/samueljsb" target="_blank"><span class="description">GitHub</span></a>
-        </li>
-        <li>
-          <a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/samuel-searles-bryant" target="_blank"><span class="description">LinkedIn</span></a>
-        </li>
-        <li>
-          <a class="fa fa-2x fa-envelope" href="mailto:contact@samueljsb.co.uk"><span class="description">Email</span></a>
-        </li>
-      </ul>
     </div>
-    <footer>
-      <span id="copyright">
-        &copy;2018 Samuel Searles-Bryant
-      </span>
-      <span id="photo-credit">
-        Profile picture by <a href="https://www.martinsiggersphotography.com/" title="Martin's website" target="_blank">Martin Siggers Photography</a>
-      </span>
-    </footer>
-  </body>
+    <div class="level-item has-text-centered">
+      <a
+        href="https://www.linkedin.com/in/{{ site.linkedin }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="icon is-large">
+          <img src="/static/icon/linkedin.svg" />
+        </span>
+        <p class="heading">LinkedIn</p>
+      </a>
+    </div>
+    <div class="level-item has-text-centered">
+      <a
+        href="mailto:{{ site.contact_email }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="icon is-large">
+          <img src="/static/icon/email.svg" />
+        </span>
+        <p class="heading">Email</p>
+      </a>
+    </div>
+  </nav>
+</section>
 
-</html>
+<footer class="footer is-size-7 has-text-centered">
+  <div class="content">
+    <p>
+      &copy; 2020 Samuel Searles-Bryant. This website is built with Jekyll and
+      hosted with GitHub Pages. Profile picture by
+      <a
+        href="https://www.martinsiggersphotography.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Martin Siggers Photography</a
+      >.
+    </p>
+  </div>
+</footer>

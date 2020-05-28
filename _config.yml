@@ -1,0 +1,25 @@
+title: Samuel Searles-Bryant
+url: 'https://samueljsb.co.uk'
+description: >-
+
+github: samueljsb
+linkedin: samuel-searles-bryant
+contact_email: contact@samueljsb.co.uk
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: '' # an empty string here means all files in the project
+    values:
+      layout: 'base'
+      permalink: /:path/:basename
+  - scope:
+      path: './static/img'
+    values:
+      image: true
