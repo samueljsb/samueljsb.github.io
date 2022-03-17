@@ -1,5 +1,5 @@
 title: Samuel Searles-Bryant
-url: 'https://samueljsb.co.uk'
+url: "https://samueljsb.co.uk"
 description: >-
 
 github: samueljsb
@@ -15,11 +15,11 @@ plugins:
 
 defaults:
   - scope:
-      path: '' # an empty string here means all files in the project
+      path: "" # an empty string here means all files in the project
     values:
-      layout: 'base'
+      layout: "base"
       permalink: /:path/:basename
   - scope:
-      path: './static/img'
+      path: "./static/img"
     values:
       image: true
