@@ -1,10 +1,10 @@
-@import "colors";
-
 html {
   background-image: url("/static/img/UCL-Quad.jpg");
   background-size: cover;
   background-position-x: center;
   height: 100%;
+
+  color: white;
 }
 
 body {
@@ -24,28 +24,47 @@ section.content {
   top: 40%;
   transform: translateY(-45%);
   width: 100%;
+}
 
-  figure {
-    margin: auto;
-  }
+section.content figure {
+  margin: auto;
+}
 
-  .level {
-    margin: auto;
-    max-width: 50%;
-  }
+section.content .level {
+  margin: auto;
+  max-width: 50%;
+}
+
+.content h1,
+a,
+.footer {
+  color: white;
+}
+
+a:hover {
+  color: #ccc;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
 
-  @media only screen and (max-width: 350px) {
-    // Hide footer on smallest phones.
+.footer {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 350px) {
+  footer {
+    /* hide footer on smallest phones */
     display: none;
   }
-  @media only screen and (max-width: 400px) {
-    // move downwards on smallish phones.
+}
+
+@media only screen and (max-width: 400px) {
+  footer {
+    /* move downwards on smallish phones */
     padding-bottom: 1rem !important;
   }
 }
